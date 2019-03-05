@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
+
+from __future__ import unicode_literals
+
+from django.apps import AppConfig
+
+
+__author__ = 'mc'
+
+class OrganizationConfig(AppConfig):
+    name = 'organization'
+    verbose_name = '机构管理'
